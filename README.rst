@@ -29,6 +29,7 @@ It cares for your mental load by reducing configuration options.
 - 🕺 Authors file
 - Ⅿ `Makefile <https://en.wikipedia.org/wiki/Make_(software)#Makefile>`_ setup
 - ⠻ Python `logging <https://docs.python.org/3/library/logging.html>`_ setup
+- 💰 `MIT <https://choosealicense.com/licenses/mit/>`_ license
 
 Usage
 =====
