@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Python: main",
+      "type": "python",
+      "request": "launch",
+      "module": "{{ cookiecutter.project_slug }}.main",
+      "justMyCode": false
+    }
+  ]
+}
