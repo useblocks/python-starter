@@ -2,13 +2,13 @@
 
 import logging
 
-from {{ cookiecutter.project_slug }}.logger import config_logger
+from {{ cookiecutter.project_package }}.logger import config_logger
 
 
 logger = logging.getLogger(__name__)
 
 
-def run():
+def run() -> None:
     config_logger()
     logger.info("This program should have never been built.")
 

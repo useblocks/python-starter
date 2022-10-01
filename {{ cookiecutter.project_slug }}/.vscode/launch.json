@@ -4,7 +4,7 @@
       "name": "Python: main",
       "type": "python",
       "request": "launch",
-      "module": "{{ cookiecutter.project_slug }}.main",
+      "module": "{{ cookiecutter.project_package }}.main",
       "justMyCode": false
     }
   ]
