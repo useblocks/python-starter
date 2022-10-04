@@ -34,10 +34,17 @@ It cares for your mental load by reducing configuration options.
 Usage
 =====
 
-1. Install cookiecutter::
+1. Install cookiecutter and poetry::
 
-    pip install cookiecutter
+    pip install cookiecutter poetry
 
-2. Run it::
+2. Run cookiecutter::
     
     cookiecutter gh:useblocks/python-starter
+
+3. Install dependencies::
+
+    cd <project-name>
+    poetry install
+
+4. Open the folder in VsCode and start developing
