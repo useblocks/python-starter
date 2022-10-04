@@ -1,3 +1,4 @@
+{% raw %}
 name: Release
 on:
   push:
@@ -73,3 +74,4 @@ jobs:
         run: poetry config pypi-token.pypi ${{ secrets.PYPI }}
       - name: poetry publish PyPi
         run: poetry publish
+{% endraw %}

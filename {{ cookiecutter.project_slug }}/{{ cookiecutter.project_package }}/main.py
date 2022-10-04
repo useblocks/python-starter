@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 def run() -> None:
+    """Set up logger and execute main function."""
     config_logger()
     logger.info("This program should have never been built.")
 

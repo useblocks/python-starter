@@ -1,0 +1,79 @@
+{
+  "editor.wordWrapColumn": 120,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "files.insertFinalNewline": true,
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.prospectorEnabled": true,
+  "python.linting.prospectorArgs": [
+    "--profile",
+    "${workspaceFolder}/.prospector.yaml"
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.sortImports.args": [
+    "--settings-path",
+    "${workspaceFolder}/pyproject.toml"
+  ],
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "restructuredtext.linter.doc8.extraArgs": [
+    "--config",
+    "/home/marco/.dotfiles/unlinked/python/doc8.ini"
+  ],
+  "restructuredtext.linter.rstcheck.executablePath": ".venv/bin/rstcheck",
+  "restructuredtext.linter.rstcheck.extraArgs": [
+    "--config",
+    "/home/marco/.dotfiles/unlinked/python/.rstcheck.cfg"
+  ],
+  "search.exclude": {
+    ".nox": true,
+    ".git": true,
+    "**/_build/": true,
+    "**/.mypy_cache": true,
+    "**/.venv": true
+  },
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "restructuredtext"
+  ],
+  "spellright.language": ["en_US"],
+  "spellright.notificationClass": "warning",
+  "spellright.ignoreRegExpsByClass": {
+    "restructuredtext": ["/\\\\n/g"]
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[restructuredtext]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 120
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[yaml]": {
+    "editor.rulers": [99],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "search.useIgnoreFiles": false,
+  "esbonio.sphinx.confDir": "${workspaceFolder}/docs"
+}

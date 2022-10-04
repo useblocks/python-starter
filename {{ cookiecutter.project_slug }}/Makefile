@@ -1,4 +1,4 @@
-SRC_FILES = sphinx_modeling/ tests/ noxfile.py
+SRC_FILES = {{ cookiecutter.project_package }}/ tests/ noxfile.py
 
 .PHONY: list
 list:
