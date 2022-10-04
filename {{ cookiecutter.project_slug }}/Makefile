@@ -6,7 +6,7 @@ list:
 
 .PHONY: lint
 lint:
-	pre-commit run --all-files
+	poetry run prospector --profile .prospector_full.yaml
 
 .PHONY: test
 test:
