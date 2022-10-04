@@ -10,6 +10,6 @@ Usage
 
     pip install {{ cookiecutter.project_slug }}
 
-2. Add it to your project with poetry:
+2. Add it to your project with poetry::
 
     poetry add {{ cookiecutter.project_slug }}
