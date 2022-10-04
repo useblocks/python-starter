@@ -1,5 +1,6 @@
 {
   "editor.wordWrapColumn": 120,
+  "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
   "files.autoSave": "afterDelay",
   "files.exclude": {
     "**/__pycache__": true
@@ -40,6 +41,7 @@
     "**/.mypy_cache": true,
     "**/.venv": true
   },
+  "search.useIgnoreFiles": false,
   "spellright.documentTypes": [
     "markdown",
     "latex",
@@ -74,6 +76,4 @@
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
-  "search.useIgnoreFiles": false,
-  "esbonio.sphinx.confDir": "${workspaceFolder}/docs"
 }
